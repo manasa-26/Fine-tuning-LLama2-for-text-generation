@@ -3,8 +3,7 @@ Fine-Tuning Llama2 For Text-Generation Using  LoRA
 
 **Overview**
 
-This project fine-tunes the pre-trained LLaMA 2 model for text generation using quantization and LoRA. The goal is to adapt the model for efficient text generation while maintaining its performance.
-Here's an explanation of the quantization and LoRA methods used in the code:
+This project fine-tunes the pre-trained LLaMA 2 model for text generation using LoRA. The goal is to adapt the model for efficient text generation while maintaining its performace.
 
 
 **LoRA (Low-Rank Adaptation)**
