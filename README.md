@@ -49,7 +49,7 @@ https://colab.research.google.com/drive/1Ad7a9zMmkxuXTOh1Z7-rNSICA4dybpM2?usp=sh
 
 **Evaluation Metrics:**
 
-* Perplexity: 12.34
+* Perplexity: 10.96
 * Accuracy: 0.95
 * F1 Score: 0.92
 * ROUGE Score: 0.88
