@@ -1,19 +1,11 @@
 # Fine-Tuning-Llama2-For-Text-Generation-
-Fine-Tuning Llama2 For Text-Generation Using Quantization and LoRA
+Fine-Tuning Llama2 For Text-Generation Using  LoRA
 
 **Overview**
 
 This project fine-tunes the pre-trained LLaMA 2 model for text generation using quantization and LoRA. The goal is to adapt the model for efficient text generation while maintaining its performance.
 Here's an explanation of the quantization and LoRA methods used in the code:
 
-**Quantization**
-
-Quantization is a technique to reduce the precision of a model's weights and activations from floating-point numbers to integers. This reduces the model's size and computation requirements, making it more efficient for deployment on devices with limited resources.
-
-In the code, quantization is applied using the torch.quantization module. The specific steps are:
-
-1. Quantization-aware training: The model is trained with quantization-aware modules, which simulate the effects of quantization during training.
-2. Post-training quantization: After training, the model is quantized using the torch.quantization.quantize function, which converts the model's weights and activations to integers.
 
 **LoRA (Low-Rank Adaptation)**
 
